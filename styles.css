@@ -1,0 +1,53 @@
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+header p {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(129, 126, 126);
+}
+
+
+
+.card{
+    background-color: darkgreen;
+    border: 5px dashed black;
+    flex: 1 0 20%;
+    margin: 3%;
+    position: relative;
+    
+}
+
+.card pre{
+    background-color: rgb(138, 204, 144);
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 10% 2%;
+    color: white;
+}
+
+.card h2 {
+    background-color: white;
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: -10%;
+    left: 25%;
+    font-size: 150%;
+}
