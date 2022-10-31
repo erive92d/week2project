@@ -17,13 +17,14 @@ main {
 }
 
 body {
-    background-color: rgb(129, 126, 126);
+    background-image: linear-gradient(green, black);
 }
 
 
 
 .card{
-    background-color: darkgreen;
+    background-image: linear-gradient(green, black);
+
     border: 5px dashed black;
     flex: 1 0 20%;
     margin: 3%;
@@ -42,12 +43,21 @@ body {
 }
 
 .card h2 {
-    background-color: white;
+    color: white;
     border: 5px solid black;
-    width: 50%;
-    margin: auto;
-    position: absolute;
-    top: -10%;
-    left: 25%;
+    position: relative;
+    margin-top: -40px;
     font-size: 150%;
+    border-radius: 8px;
+    transition: all 0.5s ease-in out;
+    width: 70%;
+    margin-left: 50px;
+    background-image: linear-gradient(green,black)
 }
+
+.card h2:hover {
+    box-shadow: inset 0px 0px 20px rgb(138, 213, 162), 0 0 15px
+    rgb(159, 221, 141);
+    
+}
+
